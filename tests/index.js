@@ -1,42 +1,41 @@
-/**
- * Created by marcopatierno on 27/07/15.
- */
 'use strict';
 
 var chai = require('chai'),
     expect = chai.expect;
 
-describe('Gulper Tasks Loader', function() {
-    describe('node module object', function() {
-        var gulp, tasks;
+describe('Grulper Tasks Loader', function() {
+    describe('node module function', function() {
+        var testGrulperLoadTasks;
 
         beforeEach(function(done) {
-            gulp = require('gulp');
-            tasks = require('../index');
+            testGrulperLoadTasks = require('../index');
             done();
         });
 
         it('task module exists', function(done) {
-            expect(tasks).to.exist;
-            expect(typeof tasks).to.equal('function');
+            expect(testGrulperLoadTasks).to.exist;
+            expect(typeof testGrulperLoadTasks).to.equal('function');
             done();
         });
 
         it('module load target tasks', function(done) {
-            var plugins = require('gulp-load-plugins')(),
+            var gulp = require('gulp'),
+                plugins = require('gulp-load-plugins')(),
                 helpers = {
                     projectSetting: {
                         projectTasks:'./tests',
                         projectDirectory:'/stubTasks'
                     }
-                };
+                },
+                options = {
+                    dirname: '/stubTasks',   // The directory that tasks are located in
+                    pattern: '*.js',    // Pattern to use when looking for task files
+                    cwd: './tasks' // Current working directory configuration
+                },
+                defaultDir = helpers.projectSetting.projectDirectory,
+                defaultRoot = helpers.projectSetting.projectTasks;
 
-            gulp = tasks(gulp, plugins, helpers, {
-                dirname: '/stubTasks',   // The directory that tasks are located in
-                pattern: '*.js',    // Pattern to use when looking for task files
-                cwd: './tasks' // Current working directory configuration
-            });
-
+            gulp = testGrulperLoadTasks(gulp,defaultDir, defaultRoot, options, plugins, helpers);
             done();
         });
     });

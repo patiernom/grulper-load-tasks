@@ -16,19 +16,19 @@ function defaultFunction(func) {
     return isFunction(func) ? func : null;
 }
 
-module.exports = function(gulp, plugins, helpers, options){
+module.exports = function(gulp, defaultDir, defaultRoot, options, plugins, helpers){
     if (isString(options)) {
         options = { dirname: options };
     }
 
     options = defaults(options, {
-        dirname: helpers.projectSetting.projectTasks,
+        dirname: defaultDir,
         cwd: process.cwd(),
         pattern: '*.js'
     });
 
     var tasksPattern = path.join (
-            helpers.projectSetting.projectDirectory,
+            defaultRoot,
             options.dirname,
             options.pattern
         ),
