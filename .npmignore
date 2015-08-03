@@ -6,3 +6,4 @@ tests/
 .jscsrc
 .jshintrc
 gulpfile.js
+.npmignore

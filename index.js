@@ -28,7 +28,6 @@ module.exports = function(gulp, options, plugins, helpers){
     });
 
     var tasksPattern = path.join (
-            options.cwd,
             options.dirname,
             options.pattern
         ),
