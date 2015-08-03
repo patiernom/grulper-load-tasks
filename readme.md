@@ -1,8 +1,6 @@
 [![GitHub version][grulper-fury-image]][grulper-fury-url]
 [![Dependency Status][grulper-dependencies-image]][grulper-dependencies-url]
 [![devDependency Status][grulper-devdependencies-image]][grulper-devdependencies-url]
-[![Codacy Badge][grulper-codacy-image]][grulper-codacy-url]
-[![Code Climate][grulper-code-climate-image]][grulper-code-climate-url]
 [![Build Status][grulper-travis-image]][grulper-travis-url]
 [![Coverage Status][grulper-coverage-image]][grulper-coverage-url]
 
@@ -92,7 +90,7 @@ Licensed under the MIT license.
 [grulper-dependencies-url]: https://david-dm.org/patiernom/grulper-load-tasks
 [grulper-devdependencies-image]: https://david-dm.org/patiernom/grulper-load-tasks.svg
 [grulper-devdependencies-url]: https://david-dm.org/patiernom/grulper-load-tasks#info=devDependencies
-[grulper-travis-image]:https://travis-ci.org/PizzaBoIt/grulper.svg?branch=master 
-[grulper-travis-url]: https://travis-ci.org/PizzaBoIt/grulper
-[grulper-coverage-image]: https://coveralls.io/repos/PizzaBoIt/grulper/badge.svg?branch=master&service=github
-[grulper-coverage-url]: https://coveralls.io/github/PizzaBoIt/grulper?branch=master
+[grulper-travis-image]: https://travis-ci.org/patiernom/grulper-load-tasks.svg?branch=master
+[grulper-travis-url]: https://travis-ci.org/patiernom/grulper-load-tasks
+[grulper-coverage-image]: https://coveralls.io/repos/patiernom/grulper-load-tasks/badge.svg?branch=master&service=github
+[grulper-coverage-url]: https://coveralls.io/github/patiernom/grulper-load-tasks?branch=master
