@@ -4,7 +4,7 @@
   "description": "A simple module for load your gulp tasks",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/patiernom/gulper-load-tasks.git"
+    "url": "git+https://github.com/patiernom/grulper-load-tasks.git"
   },
   "keywords": [
     "gulp"
@@ -12,9 +12,9 @@
   "author": "Marco Patierno",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/patiernom/gulper-load-tasks/issues"
+    "url": "https://github.com/patiernom/grulper-load-tasks/issues"
   },
-  "homepage": "https://github.com/patiernom/gulper-load-tasks#readme",
+  "homepage": "https://github.com/patiernom/grulper-load-tasks#readme",
   "main": "index.js",
   "scripts": {
     "test": "gulp test"

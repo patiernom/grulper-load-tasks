@@ -1,15 +1,15 @@
-# Gulper Load Tasks
+# Grulper Load Tasks
 
 A simple module for load your gulp tasks
 
 ## Installation
 
-The easiest way is to keep `gulper-load-tasks` as a devDependency in your `package.json`.
+The easiest way is to keep `grulper-load-tasks` as a devDependency in your `package.json`.
 ```json
 {
   "devDependencies": {
     "gulp": "^3.9.0",
-    "gulper-load-tasks": "0.0.1"
+    "grulper-load-tasks": "0.0.1"
   }
 }
 ```
