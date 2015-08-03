@@ -2,7 +2,7 @@
 [![Dependency Status][grulper-dependencies-image]][grulper-dependencies-url]
 [![devDependency Status][grulper-devdependencies-image]][grulper-devdependencies-url]
 [![Build Status][grulper-travis-image]][grulper-travis-url]
-
+[![Coverage Status][grulper-coverage-image]][grulper-coverage-url]
 
 # Grulper Load Tasks
 
