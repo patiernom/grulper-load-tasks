@@ -41,6 +41,6 @@ gulp.task('mocha', function (cb) {
         .on('end', cb);
 });
 
-gulp.task('test', ['lint', 'istanbul']);
+gulp.task('test', ['lint', 'mocha']);
 
 gulp.task('default',['test']);
