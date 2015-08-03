@@ -21,21 +21,14 @@ describe('Grulper Tasks Loader', function() {
         it('module load target tasks', function(done) {
             var gulp = require('gulp'),
                 plugins = require('gulp-load-plugins')(),
-                helpers = {
-                    projectSetting: {
-                        projectTasks:'./tests',
-                        projectDirectory:'/stubTasks'
-                    }
-                },
+                helpers = { },
                 options = {
                     dirname: '/stubTasks',   // The directory that tasks are located in
                     pattern: '*.js',    // Pattern to use when looking for task files
-                    cwd: './tasks' // Current working directory configuration
-                },
-                defaultDir = helpers.projectSetting.projectDirectory,
-                defaultRoot = helpers.projectSetting.projectTasks;
+                    cwd: './tests' // Current working directory configuration
+                };
 
-            gulp = testGrulperLoadTasks(gulp,defaultDir, defaultRoot, options, plugins, helpers);
+            gulp = testGrulperLoadTasks(gulp, options, plugins, helpers);
             done();
         });
     });
