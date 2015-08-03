@@ -24,7 +24,7 @@ npm install gulper-load-tasks  --save-dev
 You can use it into grunt task 
 ```js
 var gulp     = require('gulp');
-var tasks    = require('./gulp/loadTasks');
+var tasks    = require('gulper-load-tasks');
 
 gulp = tasks(gulp, [plugins], [helpers], {
     dirname: '/tasks',   // The directory that tasks are located in
