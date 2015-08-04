@@ -1,6 +1,7 @@
 [![GitHub version][grulper-fury-image]][grulper-fury-url]
 [![Dependency Status][grulper-dependencies-image]][grulper-dependencies-url]
 [![devDependency Status][grulper-devdependencies-image]][grulper-devdependencies-url]
+[![peerDependency Status][grulper-peerdependencies-image]][grulper-peerdependencies-url]
 [![Build Status][grulper-travis-image]][grulper-travis-url]
 [![Coverage Status][grulper-coverage-image]][grulper-coverage-url]
 
@@ -90,6 +91,8 @@ Licensed under the MIT license.
 [grulper-dependencies-url]: https://david-dm.org/patiernom/grulper-load-tasks
 [grulper-devdependencies-image]: https://david-dm.org/patiernom/grulper-load-tasks/dev-status.svg
 [grulper-devdependencies-url]: https://david-dm.org/patiernom/grulper-load-tasks#info=devDependencies
+[grulper-peerdependencies-image]: https://david-dm.org/patiernom/grulper-load-tasks/peer-status.svg
+[grulper-peerdependencies-url]: https://david-dm.org/patiernom/grulper-load-tasks#info=peerDependencies
 [grulper-travis-image]: https://travis-ci.org/patiernom/grulper-load-tasks.svg?branch=master
 [grulper-travis-url]: https://travis-ci.org/patiernom/grulper-load-tasks
 [grulper-coverage-image]: https://coveralls.io/repos/patiernom/grulper-load-tasks/badge.svg?branch=master&service=github
