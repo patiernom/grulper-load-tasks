@@ -1,6 +1,6 @@
 [![GitHub version][grulper-fury-image]][grulper-fury-url]
 [![Dependency Status][grulper-dependencies-image]][grulper-dependencies-url]
-[![devDependency Status][grulper-devdependencies-image]][grulper-devdependencies-url]
+[![devDependency Status](https://david-dm.org/patiernom/grulper-load-tasks/dev-status.svg)](https://david-dm.org/patiernom/grulper-load-tasks#info=devDependencies)
 [![Build Status][grulper-travis-image]][grulper-travis-url]
 [![Coverage Status][grulper-coverage-image]][grulper-coverage-url]
 
