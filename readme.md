@@ -28,7 +28,7 @@ npm install grulper-load-tasks  --save-dev
 
 
 ## Usage
-You can use it into grunt task 
+You can use it into gulp task 
 ```js
 var gulp     = require('gulp');
 var tasks    = require('grulper-load-tasks');

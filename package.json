@@ -1,6 +1,6 @@
 {
   "name": "grulper-load-tasks",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A simple module for load your gulp tasks",
   "repository": {
     "type": "git",
