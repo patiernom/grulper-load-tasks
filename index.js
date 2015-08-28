@@ -40,7 +40,11 @@ module.exports = function(gulp, options, plugins, helpers){
 
         taskFunc = defaultFunction(taskFunc);
 
-        gulp.task(basename, taskFunc);
+        if(task.dependecies){
+            gulp.task(basename, task.dependecies, taskFunc);
+        }else{
+            gulp.task(basename, taskFunc);
+        }
     });
 
     return gulp;

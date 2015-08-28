@@ -16,7 +16,7 @@ The easiest way is to keep `grulper-load-tasks` as a devDependency in your `pack
 {
   "devDependencies": {
     "gulp": "^3.9.0",
-    "grulper-load-tasks": "0.0.1"
+    "grulper-load-tasks": "1.0.4"
   }
 }
 ```
@@ -77,7 +77,7 @@ In line of a formal styleguide, take care to maintain the existing coding style.
 
 ## Release History
 
-_(Nothing yet)_
+28/08/2015 - v 1.0.4 - manage the dependecies task export
 
 
 ## License
